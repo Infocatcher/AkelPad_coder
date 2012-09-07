@@ -1,0 +1,2 @@
+Syntax themes for <a href="http://akelpad.sf.net/">AkelPad</a> text editor with <a href="http://akelpad.sf.net/en/plugins.php">Coder plugin</a>.
+Note: contains many non-standard variables, see _colors.html or _colors.txt for reference. 
