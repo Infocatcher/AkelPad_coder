@@ -21,6 +21,7 @@ var x = f(/./i);
 var n = 1/2;
 var n = 1/2/3;
 var n = 1/2/i;
+var n = 1 / 2 / i;
 var n = 1/(2/i);
 var n = 1/this.n/3;
 var n = 1/this.n()/3;
