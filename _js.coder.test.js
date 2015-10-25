@@ -31,3 +31,8 @@ var n = 1/2*(this.x/3 + 2);
 var n = 1/2*(this.x + 2/3);
 var n = f(1/2) + 3/2;
 var n = f(1/2) + g(3/2);
+// Not a regular expressions (hard to parse)
+var n = 1 // Some comments here
+    /i/m;
+var n = 1 /* Some comments here */
+    /i/m;
