@@ -1,4 +1,5 @@
-﻿Variable	Color
+﻿== Colors for AkelPad Coder plugin ==
+Variable	Color
 OK	#339933
 ERR	#CC3333
 IMPORTANT	#CC3333
