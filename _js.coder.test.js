@@ -1,3 +1,19 @@
+// Template literals
+var s = `${foo}${bar}${baz}`;
+var s = `string${foo}${bar}${baz}`;
+var s = `string${foo}string${bar}string${baz}string`;
+var s = myTag`That ${foo} is a ${bar} template.`;
+var s = `
+	Something
+	here
+	${x + y&z}
+`;
+var s = `
+	.foo, .bar {
+		color: red;
+	}
+`;
+
 // Regular expressions
 var r = /\//i;
 var r = /[\/*]/img;
