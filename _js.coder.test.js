@@ -7,6 +7,7 @@ var s = `
 	Something
 	here
 	${x + y&z}
+	\${not expression here}
 `;
 var s = `
 	.foo, .bar {
