@@ -8,7 +8,11 @@ var s = `
 	here
 	${x + y&z}
 	\${not expression here}
-	\${${x}
+	\${${expression}
+	text${ multiline
+		+expression
+		+here
+	}text
 `;
 var s = `
 	.foo, .bar {
