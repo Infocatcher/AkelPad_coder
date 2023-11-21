@@ -15,6 +15,7 @@ var s = `
 	}text
 `;
 var s = `
+	/* Some CSS here */
 	.foo, .bar {
 		color: red;
 	}
