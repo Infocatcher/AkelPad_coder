@@ -19,6 +19,13 @@ var s = `
 	.foo, .bar {
 		color: red;
 	}
+	.foo${x /*commented*/} {
+		color: red;
+	}
+	.foo${y //commented
+} {
+		color: red;
+	}
 `;
 
 // Regular expressions
