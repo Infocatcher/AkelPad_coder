@@ -27,6 +27,7 @@ var s = `
 		color: red;
 	}
 `;
+var s = x.getData("text/html", `<a href="${href}">${title}</a>`);
 
 // Regular expressions
 var r = /\//i;
