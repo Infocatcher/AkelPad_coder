@@ -29,6 +29,13 @@ var s = `
 `;
 var s = x.getData("text/html", `<a href="${href}">${title}</a>`);
 
+// Multiline comments
+/*
+	Some comments
+	here
+*/
+var s = 1/*CMD_A*/|4/*CMD_C*/;
+
 // Regular expressions
 var r = /\//i;
 var r = /[\/*]/img;
