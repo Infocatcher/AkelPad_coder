@@ -36,6 +36,15 @@ var s = x.getData("text/html", `<a href="${href}">${title}</a>`);
 */
 var s = 1/*CMD_A*/|4/*CMD_C*/;
 
+// Not a multiline comments
+var s = "string /* Something */ string";
+var s = 'string /* Something */ string';
+var s = `string /* Something */ string`;
+var s = "string /* Something\
+*/ string";
+var s = `string /* Something
+*/string`;
+
 // Regular expressions
 var r = /\//i;
 var r = /[\/*]/img;
