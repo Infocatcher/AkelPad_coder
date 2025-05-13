@@ -44,6 +44,12 @@ var s = "string /* Something\
 */ string";
 var s = `string /* Something
 */string`;
+var s = `string
+/* Something
+*/
+`;
+var s = "/*" + x + "*/";
+var b = /\/*_/.test(s) || /_*/.test(s);
 
 // Regular expressions
 var r = /\//i;
