@@ -11,6 +11,9 @@ if not exist %dllPath% set dllPath="%~dp0Foo_2.dll"
 if %count% equ 1 (echo. & echo Processing: %* & echo. & pause) else (echo. & echo Processing %count% objects. & echo. & pause)
 if errorlevel 1 (color C & echo. & echo ERROR)
 if errorlevel 1 (color C & echo. & echo ERROR) else (pause)
+echo (Not a group)
+echo Not a group)
+echo Not a group) something here
 
 set checkPath="%SystemDrive%\_adminRightsCheck_ln0k2oef9ldj.tmp"
 echo You can delete this file>%checkPath%
