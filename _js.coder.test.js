@@ -60,6 +60,7 @@ var r = /([a-z])+/;
 var r = /([a-z]{1,5})+/;
 var r = /f([a-z])/;
 var r = /a(b)c(d)/;
+var r = /-{2,}/;
 if(/\*/.test(s));
 /./.test(s) && f();
 /[a-z]/.test(s) && f();
