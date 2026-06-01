@@ -90,3 +90,6 @@ var n = 1 // Some comments here
     /i/m;
 var n = 1 /* Some comments here */
     /i/m;
+
+// Not a template literals
+s = s.replace(/`[^`\n\r]+`/g, escaper);
